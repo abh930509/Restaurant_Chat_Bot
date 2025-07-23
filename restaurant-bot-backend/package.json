@@ -1,0 +1,41 @@
+{
+  "name": "restaurant-bot-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Restaurant Chatbot using Node.js, Express, MySQL, Azure CLU, and Stripe",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@azure/ai-language-conversations": "^1.0.0-beta.1",
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "botbuilder": "^4.17.0-blobs1",
+    "botbuilder-ai": "^4.17.0-blobs1",
+    "botbuilder-dialogs": "^4.17.0-blobs1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.14.2",
+    "react-toastify": "^11.0.5",
+    "socket.io": "^4.8.1",
+    "stripe": "^18.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "chatbot",
+    "restaurant",
+    "azure-clu",
+    "stripe",
+    "socket.io"
+  ],
+  "author": "Abhishek Giri",
+  "license": "MIT"
+}
